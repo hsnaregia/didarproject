@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<script>
+
+    let signin = () => {
+        
+        const text = document.getElementById("text").value;
+        const password = document.getElementById("password").value;
+        if(text == 1 && password == 1){
+            window.location.href = "http://www.w3schools.com";
+        }
+        else if(text == 2 && password == 2){
+            window.location.href = "http://www.google.com";
+        }
+    }
+
+</script>
+<body>
+    <div class="background">
+        <div class="navbar-desk">
+
+            <div class="nav-desk-container">
+               <a href="#"><div class="navbar-links">درباره ما</div></a>
+               <a href="#"><div class="navbar-links"> تماس با ما</div></a>
+               <a href="#"><div class="navbar-links"> راهنما</div></a>
+               <a href="#"><div class="navbar-links"> صفحه اصلی</div></a>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="navbar">
+                <a href="menu/">
+                <span class="ham-icon">
+                    <img src="src/menu.png" alt="hamburger-menu-icon" class="png">
+                </span>
+                </a>
+            </div>
+        </div>
+        <div class="container2">
+            <form action="#">
+                <div class="input"><input type="text" id="text" name="username" class="fontAwesome" value=""></div>
+                <div class="input"><input type="password" id="password" name="password" class="fontAwesome" placeholder="&#f023 password"></div>
+                <div class="sign-in"><input type="button" value="sign in" onclick="signin()"></div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

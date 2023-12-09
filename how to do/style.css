@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@media  (max-width:1025px){
+    .navbar-desk{display: none !important;}
+    .class{
+        overflow: -moz-hidden-unscrollable;
+        overflow-x: hidden ;
+        overflow-y: auto;
+        width: 100%;
+    }
+}
+
+@media  (min-width:1025px) {
+    .class{
+        overflow: -moz-hidden-unscrollable;
+        overflow-x: hidden ;
+        overflow-y: auto;
+        width: 100%;
+    }
+    body{
+        background-color: #49BEB7;
+    }
+    .navbar{
+        display:none;
+    }
+    .navbar-desk{
+        width:100vw ;
+        height:10vh;
+        background-color: transparent;
+    }
+    .nav-desk-container{
+        width: 40vw;
+        height: 8vh;
+        margin:0 0 0 30vw;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:3vh ;
+    }
+    .nav-desk-container a{
+        width: 8vw !important;
+        height: 7vh !important;
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+    }
+    .navbar-links{
+        width: 8vw !important;
+        height: 7vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-radius: 30px;
+        background-color: #DBC95A;
+    }
+    #pagehere {
+        background-color: #db945a;
+    }
+    
+    .logo h1{
+        margin-left: 2vh !important;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .pages{
+        display: flex;
+        flex-direction: row;
+    }
+    
+.photopos{
+    width: 90vw !important;
+    height: 28vh !important;
+   margin: 7vh; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.photocontainer{
+    width: 40vw !important;
+    height: 28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photocontainer img{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 95vw;
+    height: 28vh;
+}
+    
+}
+@font-face {
+    font-family: "iransans" ;
+    src: url(/fonts/FontsFree-Net-ir_sans.ttf);
+}
+.class{
+    overflow: -moz-hidden-unscrollable;
+    overflow-x: hidden ;
+    overflow-y: auto;
+    width: 100%;
+}
+html{
+    font-family: "iransans";
+}
+.background{
+ background-size: cover; 
+ background-position-x: center;
+ height: 100vh;
+ width: 100vw;
+ background-color: #49BEB7;
+}
+.png{
+    width: auto;
+    height: 7vh;
+}
+.navbar{
+    direction: rtl;
+    padding: 2vh 4vw 1vh 0vw ;
+}
+.navbar img{
+    top:20px;
+    right:20px;
+    position: fixed;
+}
+
+.logo{
+    width: auto;
+    height:5vh;
+    display: flex;
+}
+.logo h1{
+    margin-left: 4vw;
+    font-size: xx-large;
+}
+#enLogo{
+    font-size: 2.3rem;
+}
+.photopos{
+    width: auto;
+    height: 28vh;
+   margin: 7vh; 
+}
+.photocontainer{
+    width: auto;
+    height: 28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photocontainer img{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 95vw;
+    height: 28vh;
+}
+.textoutline{
+    width: auto;
+    height: 50vh;
+}
+.textcontainer{
+    margin: 2vh 2vw;
+    width: auto;
+    height: 48vh;
+    border: 5px solid #085F63;
+    border-radius: 20px;
+    background-color: #085F63;
+}
+.textcontainer p{
+    font-size: large;
+    margin: 2vh 5vw;
+    direction: rtl;
+    font-weight:550;
+    color: white;
+}
+.topbar {
+    direction: rtl;
+    margin:2vh 5vw 0 0 ;
+}
+.topbar2 {
+    direction: ltr;
+    margin:2vh 0 0 5vw ;
+}
+.number{
+    width: 4vh;
+    height: 4vh;
+}
+.circle{
+    width: auto;
+    height: 4vh;
+    border: 1px solid #FFEA66;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5b448;
+}
